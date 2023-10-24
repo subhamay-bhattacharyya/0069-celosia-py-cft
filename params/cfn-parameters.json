@@ -1,0 +1,26 @@
+{
+    "stack-prefix": "root",
+    "stack-suffix": "stack",
+    "template-path": "/cft/celosia-root-stack.yaml",
+    "project-name": "celosia",
+    "parameters": {
+        "devl": [
+            {
+                "Environment": "devl",
+                "SNSSubscriptionEmail": "subhamay.aws.devl@mailinator.com"
+            }
+        ],
+        "test": [
+            {
+                "Environment": "test",
+                "SNSSubscriptionEmail": "subhamay.aws.test@mailinator.com"
+            }
+        ],
+        "prod": [
+            {
+                "Environment": "prod",
+                "SNSSubscriptionEmail": "subhamay.aws.prod@mailinator.com"
+            }
+        ]
+    }
+}
